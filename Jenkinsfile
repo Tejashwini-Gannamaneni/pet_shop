@@ -1,7 +1,7 @@
 node ('dev') {
     tool 'maven'
     stage('Git') { 
-        git branch: 'main', url: 'https://github.com/vamsibyramala/pet_shop.git'
+        git branch: 'main', url: 'https://github.com/Tejashwini-Gannamaneni/pet_shop.git'
     }
     stage('Build') {
         sh 'mvn clean package'
